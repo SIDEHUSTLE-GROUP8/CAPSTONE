@@ -1,65 +1,47 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./desktopbackground.css">
+  <meta charset="UTF-8">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Order summary card</title>
 </head>
+<!--Body Section of the Order Summary-->
+
 <body>
-				
-				<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="437"><path fill="#D6E1FF" fill-rule="evenodd" d="M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z"/></svg>
-				
-    <!-- this is the summary order box itself that carries the main design-->
-    <div class="box">
-
-
-        <!-- this is the image for the banner -->
-<img src="./illustration-hero.svg" alt="">
-
-
-<!-- this is the heading, Order Summary -->
-    <div class="order-summary">
-            <h1>Order Summary</h1>
-            </div>
-
-
-<!-- this is the paragraph after the heading -->
-    <p>You can now listen to millions of songs, <br> audiobooks, and podcasts on any device <br> anywhere you like!</p>
-
-
-    <!-- this is the music icon -->
-<img src="./icon-music.svg" alt="icon-music">
-
-
-<!-- this is the option for subscription, Annual plan -->
-    <div class="annual-plan">
-<h2> Annual Plan</h2>
-<p>$59.99/year</p>
+  <div class="container">
+    <div class="hero">
+      <img src="images/illustration-hero.svg" alt="hero image">
     </div>
 
+    <div class="text-content">
+      <h2 class="title">Order Summary</h2>
+      <p class="subtitle">You can now listen to millions of songs,<br>
+        audiobooks, and podcasts on any device<br>
+        anywhere you like!
+      </p>
 
-    <!-- this is the link that gives an option to change the subscription plan -->
-    <div class="change">
+      <div class="plan-box">
+        <div class="plan-box-left">
+          <img src="images/icon-music.svg" alt="music icon">
+          <div class="">
+            <h4>Annual Plan</h4>
+            <p>$59.99/year</p>
+          </div>
+        </div>
         <a href="#">Change</a>
+      </div>
+      <a href="#" class="proceed-btn">Proceed to Payment</a>
+      <a href="#" class="cancel-btn">Cancel Order</a>
     </div>
 
+  </div>
 
-    <!-- this is the button for making payment -->
-    <div class="button">
-<button>Proceed to payment</button>
-    </div>
-
-
-    <!-- this is the option for cancelling order -->
-    <div class="cancel">
-<p>Cancel Order</p>
-    </div>
-
-</div>
-
-
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">GROUP 8</a>.
+  </div>
 </body>
 </html>
